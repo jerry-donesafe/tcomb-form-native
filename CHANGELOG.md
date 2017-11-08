@@ -10,6 +10,26 @@
 
 **Note**: Gaps between patch versions are faulty/broken releases.
 
+## 0.6.11
+
+- **New Feature**
+    - add support for datetime in Android, closes #283 (@alvaromb)
+- **Polish**
+    - lib uses prettier formatting (@alvaromb)
+
+## 0.6.10
+
+- **New Feature**
+    - add pureValidate method on Form (@papuaaaaaaa)
+    - add option to change dialog mode for DatePickerAndroid (@javiercr)
+    - add onPress handler for DatePicker (@koenpunt)
+- **Bug fix**
+    - remove checkbox label when auto === 'none' (@OzoTek)
+- **Polish**
+    - fix broken link in README (@Hitabis)
+    - add version support table, closes #248 (@alvaromb)
+    - updated React to 15.6.1 and added PropTypes Dependency (@garylesueur)
+
 ## 0.6.9
 
 - **Bug fix**
